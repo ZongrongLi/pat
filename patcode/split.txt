@@ -1,0 +1,10 @@
+vector<string> split(string s) {
+	vector<string> v;
+	istringstream f(s);
+	string t;
+	while (getline(f, t, ' ')) {
+		v.push_back(t);
+	}
+	
+	return v;
+}
