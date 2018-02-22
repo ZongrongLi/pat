@@ -28,6 +28,7 @@ int main() {
 	for (int i = 1; i <= n; i++) {
 		int ni;
 		scanf("%d: ",&ni);
+		vector<int>ans;
 		
 		for (int j = 0; j < ni; j++) {
 			int t;

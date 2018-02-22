@@ -39,8 +39,6 @@ void dfs(int idx,int data,int d,int sum) {
 	if (d > k)return;//--------------------
 	if (d == k&&data == 0) {
 		//sum += idx;
-		
-		
 		flag = true;
 		if (maxsum < sum) {
 			maxsum = sum;
